@@ -1,0 +1,24 @@
+<div class="row input-boader">
+    <div class="col-xs-12 col-md-8">
+        <input placeholder="Search" class="form-control" type="text" (change)="filterRecipe(search,searchOption)"
+            ngModel #search>
+    </div>
+    <div class="col-xs-12 col-md-4" (change)="filterRecipe(search,searchOption)">
+            <select class="form-control" ngModel #searchOption >
+                    <option value="" selected>Recipe Name</option>    
+                    <option value="author">Author</option>
+                    <option value="description">Description</option>
+            </select>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <h3 class="sub-head">Recipe Index</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <app-recipe-item *ngFor="let recipeEl of recipes; let i = index" [recipe]="recipeEl" [index]="i">
+        </app-recipe-item>
+    </div>
+</div>

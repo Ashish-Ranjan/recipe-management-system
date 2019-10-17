@@ -1,0 +1,102 @@
+img.img-responsive.img-thumbnail {
+    margin-top: 15px;
+}
+
+.veg div div {
+    width: 20px;
+    height: 20px;
+    background: green;
+    border-radius: 50%;
+}
+
+.veg div {
+    border: 4px solid green;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.veg {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    background: #ffffff;
+}
+
+.non-veg div div {
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+}
+
+.non-veg div {
+    border: 4px solid red;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.non-veg {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    background: #ffffff;
+}
+
+.infomation {
+    padding: 20px;
+    margin: 15px 0 0 0;
+    border-radius: 0px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+}
+
+.info-label{
+    font-weight: 500 !important;
+}
+
+.recipe-img{
+    margin: 15px;
+}
+.thumbnail img{
+    width: 100%;
+    max-height: 400px;
+}
+
+p.section-head span {
+    font-size: 18px;
+    font-weight: 500 !important;
+}
+
+p.section-head span a {
+    margin: 0px 2px;
+}
+
+.recipe-heading h3 {
+    font-size: 44px;
+    font-weight: 400 !important;
+}
+
+.des {
+    font-size: 18px;
+    font-weight: 400 !important;
+}
+
+span.badge {
+    font-size: 18px;
+    font-weight: 400 !important;
+    background: #363940;
+    color: #ffffff !important;
+}
+
+span.label {
+    background: #363940;
+    font-size: 16px;
+    color: #ffffff !important;
+    border-radius: 50%;
+    padding: 0.2em 0.5em;
+}

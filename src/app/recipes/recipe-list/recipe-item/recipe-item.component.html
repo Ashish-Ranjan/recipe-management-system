@@ -1,0 +1,18 @@
+<a [routerLink]="recipe._id" routerLinkActive="active" (click)="scrollTop($event)">
+    <div class="col-xs-12 col-sm-6 col-md-3 card-view">
+        <div class="thumbnail">
+            <div class="{{ isRecipeType() }}">
+                <div>
+                    <div>
+                    </div>
+                </div>
+            </div>
+            <img [src]="recipe.imagePath" alt="{{recipe.name}}">
+            <div class="caption">
+                <small><span class="glyphicon glyphicon-user" aria-hidden="true"></span> : {{ recipe.author }}</small>
+                <h3 class="short-des">{{recipe.name}}</h3>
+                <p class="short-des">{{recipe.description}}</p>
+            </div>
+        </div>
+    </div>
+</a>

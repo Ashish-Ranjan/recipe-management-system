@@ -1,0 +1,87 @@
+.recipeItem {
+  max-width: 100px;
+}
+
+.thumbnail {
+  padding: 0px;
+  border-radius: 0px;
+  cursor: pointer;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+}
+
+.thumbnail:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-view {
+  padding: 5px;
+}
+
+.veg div div {
+  width: 20px;
+  height: 20px;
+  background: green;
+  border-radius: 50%;
+}
+
+.veg div {
+  border: 4px solid green;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.veg {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: #ffffff;
+}
+
+.non-veg div div {
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+}
+
+.non-veg div {
+  border: 4px solid red;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.non-veg {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: #ffffff;
+}
+
+h3.short-des{
+  font-weight: 500 !important;
+  font-size: 18px;
+}
+
+.thumbnail .caption {
+  padding: 20px 0 10px 20px;
+}
+
+.short-des {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+a.active div .thumbnail {
+    background: #e6e6e6;
+}
+
+.thumbnail>img {
+    min-height: 273px;
+}
