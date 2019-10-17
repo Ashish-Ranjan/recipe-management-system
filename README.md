@@ -69,11 +69,42 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
            |
            |--`signup`
            |      |
-           |      |--`signup.component.(ts, css, html, spec.ts)` /*footer Component contains copy right details*/
+           |      |--`signup.component.(ts, css, html, spec.ts)` /*signup Component contains user registeration form and functionalities*/
            |
            |--`models`
            |      |
-           |      |--`recipe.model.(ts, spec.ts)` /*recipe model for storing recipe details*/
-           |      |--`ingredient.model.(ts, spec.ts)` /*ingredient model for storing ingredients for recipe*/
-           |      |--`steps.model.(ts, spec.ts)` /*steps model for storing cooking instructions for each recipe*/
+           |      |--`recipe.model.(ts, spec.ts)`         /*recipe model for storing recipe details*/
+           |      |--`ingredient.model.(ts, spec.ts)`     /*ingredient model for storing ingredients for recipe*/
+           |      |--`steps.model.(ts, spec.ts)`          /*steps model for storing cooking instructions for each recipe*/
+           |      
+           |--`services`
+           |      |
+           |      |--`auth.guard.ts`                      /*holds canActivate fuctionality for route*/
+           |      |--`auth.service.(ts, spec.ts)`         /*holds authentication fuctionality for users login and registeration*/
+           |      |--`recipe.service.(ts, spec.ts)`       /*holds recipe create delete update fuctionality for recipe*/
+           |      
+           |--`recipes`
+                  |
+                  |--`recipe.component.(ts, css, html, spec.ts)`                 /*recipe component parent for call recipe child components*/
+                  |
+                  |--`recipe-start`
+                  |      |
+                  |      |--`recipe-start.component.(ts, css, html, spec.ts)`    /*recipe-start component holds banner for application*/
+                  |
+                  |--`recipe-edit`
+                  |      |
+                  |      |--`recipe-edit.component.(ts, css, html, spec.ts)`     /*recipe-edit component holds form for recipe addition deletion and modification*/
+                  |
+                  |--`recipe-detail`
+                  |      |
+                  |      |--`recipe-detail.component.(ts, css, html, spec.ts)`   /*recipe-detail component represent each recipe selected from the list*/
+                  |        
+                  |--`recipe-list`
+                         |
+                         |--recipe-item
+                         |       |
+                         |       |--`recipe-item.component.(ts, css, html, spec.ts)`     /*recipe-item component represent each recipe of an array*/
+                         |
+                         |--`recipe-list.component.(ts, css, html, spec.ts)`     /*recipe-list component represent array of all recipes*/
+
 ```   
