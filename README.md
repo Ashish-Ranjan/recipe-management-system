@@ -49,5 +49,10 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
        |      |--`fonts`                       
        |      |--`images`
        | 
-       |--app                     
+       |--app 
+           |
+           |--app.module.ts  /*bootstrap Angular application and includes all components and UI dependencies*/
+           |--app-routing.module.ts    /*includes the route's for the applications*/
+           |--app.component.(ts, css, html, spec.ts)     /*app Component Parent for all the components*/
+           |--                   
 ```   
