@@ -42,17 +42,23 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
        |--`favicon.ico`      /*Titlebar Icon*/
        |--`environments`
        |      |     
-       |      |--`environment.prod.ts`         /*production configuration file*/
-       |      |--`environment.ts`              /*development configuration file*/
+       |      |--`environment.prod.ts` /*production configuration file*/
+       |      |--`environment.ts`      /*development configuration file*/
        |
        |--`asserts`
        |      |--`fonts`                       
        |      |--`images`
        | 
-       |--app 
+       |--`app` 
            |
-           |--app.module.ts  /*bootstrap Angular application and includes all components and UI dependencies*/
-           |--app-routing.module.ts    /*includes the route's for the applications*/
-           |--app.component.(ts, css, html, spec.ts)     /*app Component Parent for all the components*/
-           |--                   
+           |--`app.module.ts`         /*bootstrap Angular application and includes all components and UI dependencies*/
+           |--`app-routing.module.ts` /*includes the route's for the applications*/
+           |--`app.component.(ts, css, html, spec.ts)` /*app Component Parent for all the components*/
+           |
+           |--`header`
+           |      |--`header.component.(ts, css, html, spec.ts)` /*header Component contains Nav for the application*/
+           |
+           |--`footer`
+                  |--`footer.component.(ts, css, html, spec.ts)` /*footer Component contains copy right details*/
+                  
 ```   
