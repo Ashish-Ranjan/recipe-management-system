@@ -2,6 +2,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { AuthService } from '../services/auth.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-signup',
@@ -15,9 +16,12 @@ export class SignupComponent implements OnInit {
   successfullyRegistered = false;
   errorIncounterd = false;
   errorMessage = '';
-  constructor(private authService: AuthService) { }
+  constructor(private authService: AuthService, private router: Router) { }
 
   ngOnInit() {
+    if(this.authService.isUserLoggedIn()){
+      this.router.navigate(['/recipes']);
+    }
   }
 
   handleSignUp() {
@@ -35,6 +39,7 @@ export class SignupComponent implements OnInit {
         this.errorIncounterd = false;
         this.errorMessage = '';
         this.successfullyRegistered = true;
+        this.submittedForm.reset();
       } else {
         this.errorIncounterd = true;
         this.errorMessage = responseDate['errorMessage'];
