@@ -51,14 +51,29 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
        | 
        |--`app` 
            |
-           |--`app.module.ts`         /*bootstrap Angular application and includes all components and UI dependencies*/
-           |--`app-routing.module.ts` /*includes the route's for the applications*/
+           |--`app.module.ts`                          /*bootstrap Angular application and includes all components and UI dependencies*/
+           |--`app-routing.module.ts`                  /*includes the route's for the applications*/
            |--`app.component.(ts, css, html, spec.ts)` /*app Component Parent for all the components*/
            |
            |--`header`
+           |      |
            |      |--`header.component.(ts, css, html, spec.ts)` /*header Component contains Nav for the application*/
            |
            |--`footer`
-                  |--`footer.component.(ts, css, html, spec.ts)` /*footer Component contains copy right details*/
-                  
+           |      |
+           |      |--`footer.component.(ts, css, html, spec.ts)` /*footer Component contains copy right details*/
+           |
+           |--`login`
+           |      |
+           |      |--`login.component.(ts, css, html, spec.ts)` /*login Component contains user login form and functionalities*/
+           |
+           |--`signup`
+           |      |
+           |      |--`signup.component.(ts, css, html, spec.ts)` /*footer Component contains copy right details*/
+           |
+           |--`models`
+           |      |
+           |      |--`recipe.model.(ts, spec.ts)` /*recipe model for storing recipe details*/
+           |      |--`ingredient.model.(ts, spec.ts)` /*ingredient model for storing ingredients for recipe*/
+           |      |--`steps.model.(ts, spec.ts)` /*steps model for storing cooking instructions for each recipe*/
 ```   
