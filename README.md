@@ -123,4 +123,4 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## spec.ts
 
-`.spec.ts` file contains each components test cases
+`.spec.ts` file contains each components test cases repectively
