@@ -8,7 +8,7 @@ Run `npm install` for installing the dependency of the both Database as well as 
 
 ## Run NeDB DataBase 
 
-Run `node dbServer.js` for a API server. 
+Run `node dbServer.js` for a API server. `http://localhost:3000` 
 
 ## Development server
 
