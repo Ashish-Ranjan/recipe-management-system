@@ -25,8 +25,8 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Project Structure
 ```
 `FavRecipe`
-  --`node_modules`  /*Contains all the dependencies of the application*/
-  --`user.db`  /*User DataBase holds User Login Id and Password Details*/
+  |--`node_modules`  /*Contains all the dependencies of the application*/
+  |--`user.db`  /*User DataBase holds User Login Id and Password Details*/
   --`recipe.db`  /*Recipe DataBase holds All Users Created Recipes*/
   --`package.json`  /*Configuration file for NodeJs*/
   --`angular.json`  /*Angular Configuration file*/
