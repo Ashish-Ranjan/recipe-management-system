@@ -26,24 +26,24 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ```
 `FavRecipe`
   |
-  |--`node_modules`          /*Contains all the dependencies of the application*/
-  |--`user.db`               /*User DataBase holds User Login Id and Password Details*/
-  |--`recipe.db`             /*Recipe DataBase holds All Users Created Recipes*/
-  |--`package.json`          /*Configuration file for NodeJs*/
-  |--`angular.json`          /*Angular Configuration file*/
-  |--`tsconfig.json`         /*Type Script Configuration file*/
+  |--`node_modules`                                                                      /*Contains all the dependencies of the application*/
+  |--`user.db`                                                                           /*User DataBase holds User Login Id and Password Details*/
+  |--`recipe.db`                                                                         /*Recipe DataBase holds All Users Created Recipes*/
+  |--`package.json`                                                                      /*Configuration file for NodeJs*/
+  |--`angular.json`                                                                      /*Angular Configuration file*/
+  |--`tsconfig.json`                                                                     /*Type Script Configuration file*/
   |--`src`
        |
-       |--`test.ts`          /*Test Initialization file*/
-       |--`main.ts`          /*Angular Application Bootstrap file*/
-       |--`polyfill.ts`      /*Legacy Browser Support*/
-       |--`index.html`       /*Index page*/
-       |--`styles.css`       /*Global Css*/
-       |--`favicon.ico`      /*Titlebar Icon*/
+       |--`test.ts`                                                                      /*Test Initialization file*/
+       |--`main.ts`                                                                      /*Angular Application Bootstrap file*/
+       |--`polyfill.ts`                                                                  /*Legacy Browser Support*/
+       |--`index.html`                                                                   /*Index page*/
+       |--`styles.css`                                                                   /*Global Css*/
+       |--`favicon.ico`                                                                  /*Titlebar Icon*/
        |--`environments`
        |      |     
-       |      |--`environment.prod.ts` /*production configuration file*/
-       |      |--`environment.ts`      /*development configuration file*/
+       |      |--`environment.prod.ts`                                                   /*production configuration file*/
+       |      |--`environment.ts`                                                        /*development configuration file*/
        |
        |--`asserts`
        |      |--`fonts`                       
@@ -51,53 +51,53 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
        | 
        |--`app` 
            |
-           |--`app.module.ts`                          /*bootstrap Angular application and includes all components and UI dependencies*/
-           |--`app-routing.module.ts`                  /*includes the route's for the applications*/
-           |--`app.component.(ts, css, html, spec.ts)` /*app Component Parent for all the components*/
+           |--`app.module.ts`                                                            /*bootstrap Angular application and includes all components and UI dependencies*/
+           |--`app-routing.module.ts`                                                    /*includes the route's for the applications*/
+           |--`app.component.(ts, css, html, spec.ts)`                                   /*app Component Parent for all the components*/
            |
            |--`header`
            |      |
-           |      |--`header.component.(ts, css, html, spec.ts)` /*header Component contains Nav for the application*/
+           |      |--`header.component.(ts, css, html, spec.ts)`                         /*header Component contains Nav for the application*/
            |
            |--`footer`
            |      |
-           |      |--`footer.component.(ts, css, html, spec.ts)` /*footer Component contains copy right details*/
+           |      |--`footer.component.(ts, css, html, spec.ts)`                         /*footer Component contains copy right details*/
            |
            |--`login`
            |      |
-           |      |--`login.component.(ts, css, html, spec.ts)` /*login Component contains user login form and functionalities*/
+           |      |--`login.component.(ts, css, html, spec.ts)`                          /*login Component contains user login form and functionalities*/
            |
            |--`signup`
            |      |
-           |      |--`signup.component.(ts, css, html, spec.ts)` /*signup Component contains user registeration form and functionalities*/
+           |      |--`signup.component.(ts, css, html, spec.ts)`                         /*signup Component contains user registeration form and functionalities*/
            |
            |--`models`
            |      |
-           |      |--`recipe.model.(ts, spec.ts)`         /*recipe model for storing recipe details*/
-           |      |--`ingredient.model.(ts, spec.ts)`     /*ingredient model for storing ingredients for recipe*/
-           |      |--`steps.model.(ts, spec.ts)`          /*steps model for storing cooking instructions for each recipe*/
+           |      |--`recipe.model.(ts, spec.ts)`                                        /*recipe model for storing recipe details*/
+           |      |--`ingredient.model.(ts, spec.ts)`                                    /*ingredient model for storing ingredients for recipe*/
+           |      |--`steps.model.(ts, spec.ts)`                                         /*steps model for storing cooking instructions for each recipe*/
            |      
            |--`services`
            |      |
-           |      |--`auth.guard.ts`                      /*holds canActivate fuctionality for route*/
-           |      |--`auth.service.(ts, spec.ts)`         /*holds authentication fuctionality for users login and registeration*/
-           |      |--`recipe.service.(ts, spec.ts)`       /*holds recipe create delete update fuctionality for recipe*/
+           |      |--`auth.guard.ts`                                                     /*holds canActivate fuctionality for route*/
+           |      |--`auth.service.(ts, spec.ts)`                                        /*holds authentication fuctionality for users login and registeration*/
+           |      |--`recipe.service.(ts, spec.ts)`                                      /*holds recipe create delete update fuctionality for recipe*/
            |      
            |--`recipes`
                   |
-                  |--`recipe.component.(ts, css, html, spec.ts)`                 /*recipe component parent for call recipe child components*/
+                  |--`recipe.component.(ts, css, html, spec.ts)`                         /*recipe component parent for call recipe child components*/
                   |
                   |--`recipe-start`
                   |      |
-                  |      |--`recipe-start.component.(ts, css, html, spec.ts)`    /*recipe-start component holds banner for application*/
+                  |      |--`recipe-start.component.(ts, css, html, spec.ts)`            /*recipe-start component holds banner for application*/
                   |
                   |--`recipe-edit`
                   |      |
-                  |      |--`recipe-edit.component.(ts, css, html, spec.ts)`     /*recipe-edit component holds form for recipe addition deletion and modification*/
+                  |      |--`recipe-edit.component.(ts, css, html, spec.ts)`             /*recipe-edit component holds form for recipe addition deletion and modification*/
                   |
                   |--`recipe-detail`
                   |      |
-                  |      |--`recipe-detail.component.(ts, css, html, spec.ts)`   /*recipe-detail component represent each recipe selected from the list*/
+                  |      |--`recipe-detail.component.(ts, css, html, spec.ts)`           /*recipe-detail component represent each recipe selected from the list*/
                   |        
                   |--`recipe-list`
                          |
@@ -105,6 +105,6 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
                          |       |
                          |       |--`recipe-item.component.(ts, css, html, spec.ts)`     /*recipe-item component represent each recipe of an array*/
                          |
-                         |--`recipe-list.component.(ts, css, html, spec.ts)`     /*recipe-list component represent array of all recipes*/
+                         |--`recipe-list.component.(ts, css, html, spec.ts)`             /*recipe-list component represent array of all recipes*/
 
 ```   
