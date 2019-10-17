@@ -108,3 +108,19 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
                          |--`recipe-list.component.(ts, css, html, spec.ts)`             /*recipe-list component represent array of all recipes*/
 
 ```   
+
+## ts
+
+`.ts` file contains functionalities of specific components respectivly
+
+## css
+
+`.css` file contains style sheets for specific components respectively
+
+## html
+
+`.html` file contains templated for specific components respectively
+
+## spec.ts
+
+`.spec.ts` file contains each components test cases
