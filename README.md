@@ -25,15 +25,29 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Project Structure
 ```
 `FavRecipe`
-  |--`node_modules`  /*Contains all the dependencies of the application*/
-  |--`user.db`  /*User DataBase holds User Login Id and Password Details*/
-  --`recipe.db`  /*Recipe DataBase holds All Users Created Recipes*/
-  --`package.json`  /*Configuration file for NodeJs*/
-  --`angular.json`  /*Angular Configuration file*/
-  --`tsconfig.json` /*Type Script Configuration file*/
-  --`src`
-      --`test.ts` /*Test Initialization file*/
-      --`main.ts` /*Angular Application Bootstrap file*/
-      --`polyfill.ts`  /*Legacy Browser Support*/
-      --`index.html` /*Index page*/
-```
+  |
+  |--`node_modules`          /*Contains all the dependencies of the application*/
+  |--`user.db`               /*User DataBase holds User Login Id and Password Details*/
+  |--`recipe.db`             /*Recipe DataBase holds All Users Created Recipes*/
+  |--`package.json`          /*Configuration file for NodeJs*/
+  |--`angular.json`          /*Angular Configuration file*/
+  |--`tsconfig.json`         /*Type Script Configuration file*/
+  |--`src`
+       |
+       |--`test.ts`          /*Test Initialization file*/
+       |--`main.ts`          /*Angular Application Bootstrap file*/
+       |--`polyfill.ts`      /*Legacy Browser Support*/
+       |--`index.html`       /*Index page*/
+       |--`styles.css`       /*Global Css*/
+       |--`favicon.ico`      /*Titlebar Icon*/
+       |--`environments`
+       |      |     
+       |      |--`environment.prod.ts`         /*production configuration file*/
+       |      |--`environment.ts`              /*development configuration file*/
+       |
+       |--`asserts`
+       |      |--`fonts`                       
+       |      |--`images`
+       | 
+       |--app                     
+```   
